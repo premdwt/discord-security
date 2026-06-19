@@ -1,8 +1,20 @@
 # Discord Sentinel
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/premdwt/discord-security)](https://github.com/premdwt/discord-security/releases)
+
 **Discord Sentinel v1.0** — aplikasi keamanan Windows native (C++ / Win32) untuk melindungi akun Discord dari **token stealer** dan proses mencurigakan.
 
 Aplikasi berjalan di **system tray** dengan monitoring background yang tetap aktif meskipun console disembunyikan.
+
+---
+
+## Download
+
+Unduh executable siap pakai dari [GitHub Releases](https://github.com/premdwt/discord-security/releases/latest):
+
+1. Download `DiscordSentinel-v1.0-win64.zip`
+2. Extract dan jalankan `DiscordSentinel.exe` sebagai **Administrator**
 
 ---
 
@@ -93,6 +105,7 @@ DiscordSentinel/
 ├── DiscordSentinel.sln
 ├── DiscordSentinel.vcxproj
 ├── CMakeLists.txt
+├── LICENSE
 └── app.manifest           # requireAdministrator
 ```
 
@@ -124,4 +137,8 @@ DiscordSentinel/
 
 ## Lisensi
 
-Project ini bersifat pribadi/edukatif. Hubungi author untuk pertanyaan penggunaan atau distribusi.
+Project ini dilisensikan di bawah [MIT License](LICENSE).
+
+Copyright (c) 2026 PREM
+
+Anda bebas menggunakan, memodifikasi, mendistribusikan, dan menyumbang ke project ini sesuai ketentuan lisensi MIT.
